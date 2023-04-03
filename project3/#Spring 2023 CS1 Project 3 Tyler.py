@@ -1,4 +1,8 @@
 #Spring 2023 CS1 Project 3 Tyler
+# comments: 
+# add unit-test for your scenarios 
+# you condition @ 32 does not work because it is not a collection (aka list, aka  array), try 
+#    if "0123456789".find(digit):   .. instead, or use collection type e.g. digits = ("1", "2", ...)
 
 import random
 
