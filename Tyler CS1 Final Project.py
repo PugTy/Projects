@@ -29,6 +29,12 @@ def message(msg, color):
 def player_score(score):
     value = score_font.render("Your Score: " + str(score), True, white)
     display.blit(value, [0, 0]) 
+    
+    
+#38-54 + 118 highscore lines issue. 
+#game is meant to keep going so player can choose to play -p or quit -q but instead terminates.   
+#doesnt display highscore
+
 def get_high_score():
     try:
         with open("highscore.txt", "r") as file:
