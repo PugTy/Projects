@@ -124,5 +124,6 @@ def game():
                             return True
     pygame.quit()
     return False
+
 while game():
     pass
